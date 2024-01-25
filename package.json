@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "enum-1": "rollup -c rollup_configs/rollup.config.enum.1.js",
-    "enum-2": "rollup -c rollup_configs/rollup.config.enum.2.js",
     "const-enum-1": "rollup -c const_enum/rollup_configs/rollup.config.1.js",
     "const-enum-2": "rollup -c const_enum/rollup_configs/rollup.config.2.js",
+    "enum-1": "rollup -c enum/rollup_configs/rollup.config.1.js",
+    "enum-2": "rollup -c enum/rollup_configs/rollup.config.2.js",
+    "object-1": "rollup -c object/rollup_configs/rollup.config.1.js",
+    "object-2": "rollup -c object/rollup_configs/rollup.config.2.js",
+    "object-freeze-1": "rollup -c object_freeze/rollup_configs/rollup.config.1.js",
+    "object-freeze-2": "rollup -c object_freeze/rollup_configs/rollup.config.2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

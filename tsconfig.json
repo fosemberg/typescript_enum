@@ -5,6 +5,9 @@
     "skipLibCheck": true
   },
   "include": [
-    "const_enum/src/**/*"
+    "const_enum/src/**/*",
+    "enum/src/**/*",
+    "object/src/**/*",
+    "object_freeze/src/**/*"
   ]
 }
