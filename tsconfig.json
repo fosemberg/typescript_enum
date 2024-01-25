@@ -8,6 +8,7 @@
     "const_enum/src/**/*",
     "enum/src/**/*",
     "object/src/**/*",
+    "object_const/src/**/*",
     "object_freeze/src/**/*"
   ]
 }
